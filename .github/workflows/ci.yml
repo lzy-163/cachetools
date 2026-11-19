@@ -25,3 +25,4 @@ jobs:
         with:
           name: ${{ matrix.python }}
           token: ${{ secrets.CODECOV_TOKEN }}
+          fail_ci_if_error: false
